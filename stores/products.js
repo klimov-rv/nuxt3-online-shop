@@ -18,7 +18,7 @@ export const useProductsStore = defineStore('productsStore', () => {
     };
 
     async function loadSingleProduct(id) {
-        const { data, pending, error } = await useLazyFetch(`https://dummyjson.com/products/${id}`);
+        const { data, pending, error } = await useFetch(`https://dummyjson.com/products/${id}`);
         console.log(data.value);
         product.value = data.value;
         if (error.value) {
