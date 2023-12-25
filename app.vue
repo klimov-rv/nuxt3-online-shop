@@ -29,11 +29,9 @@ const themeOverrides: GlobalThemeOverrides = {
       <NNotificationProvider>
         <NLoadingBarProvider>
           <NDialogProvider>
-            <NThemeEditor>
-              <NuxtLayout>
-                <NuxtPage />
-              </NuxtLayout>
-            </NThemeEditor>
+            <NuxtLayout>
+              <NuxtPage />
+            </NuxtLayout>
           </NDialogProvider>
         </NLoadingBarProvider>
       </NNotificationProvider>

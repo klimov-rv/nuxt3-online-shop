@@ -10,17 +10,21 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@css-render/vue3-ssr": "^0.15.12",
     "@nuxt/devtools": "latest",
+    "@pinia/nuxt": "^0.5.1",
     "naive-ui": "^2.34.4",
     "naive-ui-locale-ru": "^1.0.0",
     "nuxt": "^3.8.2",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
     "unplugin-auto-import": "^0.17.2",
     "unplugin-vue-components": "^0.25.1",
     "vfonts": "^0.0.3",
-    "@css-render/vue3-ssr": "^0.15.12",
-    "sass": "^1.69.5",
-    "sass-loader": "^13.3.2",
     "vue": "^3.3.12",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7"
   }
 }

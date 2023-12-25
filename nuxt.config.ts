@@ -3,14 +3,14 @@ import Components from "unplugin-vue-components/vite";
 import { NaiveUiResolver } from "unplugin-vue-components/resolvers";
 
 export default defineNuxtConfig({
-  devtools: { enabled: false },
-  ssr: true,
-  routeRules: {
-    "/": { prerender: true },
-    "/products/**": { swr: 3600 },
-    "/cart/**": { ssr: false },
-    "/contacts/**": { ssr: true },
-  },
+  devtools: { enabled: false }, 
+  // routeRules: {
+  //   "/": { swr: true },
+  //   "/products/**": { swr: true },
+  //   "/cart/**": { ssr: false },
+  //   "/contacts/**": { ssr: true },
+  // },
+  modules: ["@pinia/nuxt"],
   app: {
     head: {
       title: process.env.npm_package_name,
@@ -27,11 +27,7 @@ export default defineNuxtConfig({
         },
       ],
       link: [
-        // { rel: "stylesheet", type: "text/css", href: "/css/vendor.min.css" },
-        // { rel: "stylesheet", type: "text/css", href: "/css/app.min.css" },
-        // { rel: "stylesheet", type: "text/css", href: "/css/layout-grid.css" },
-        // { rel: "stylesheet", type: "text/css", href: "/css/editor.css" },
-        // { rel: "stylesheet", type: "text/css", href: "/css/patch.css" },
+        { rel: "stylesheet", type: "text/css", href: "/css/bootstrap.css" },
       ],
       script: [
         // {
