@@ -1,18 +1,57 @@
 export const useProductsStore = defineStore('productsStore', () => {
 
-    const products = ref({}); 
+    const products = ref({});
+    const product = ref({});
+    const products_filtered = ref({});
+    const filter = ref({});
 
     async function loadProducts() {
-        const { data, pending } = await useLazyFetch("/api/products");
-        products.value = data.value;
+        const { data, pending, error } = await useLazyFetch("/api/products");
+        products_filtered.value = products.value = data.value.products;
+        if (error.value) {
+            throw createError({
+                ...error.value,
+                statusMessage: `Ошибка загрузки списка продуктов`
+            })
+        }
         return pending;
     };
 
+    async function loadSingleProduct(id) {
+        const { data, pending, error } = await useLazyFetch(`https://dummyjson.com/products/${id}`);
+        console.log(data.value);
+        product.value = data.value;
+        if (error.value) {
+            throw createError({
+                ...error.value,
+                statusMessage: `Ошибка загрузки продукта ${id}`
+            })
+        }
+        return pending;
+    };
+
+    function filterProducts(filter_code) {
+        if (filter_code === "Все бренды") {
+            return products.value;
+        } else {
+            return products.value.filter((item) => (filter_code === item.brand));
+        }
+    }
+
+    function setFilter(filter_value) {
+        filter.value = filter_value;
+        products_filtered.value = filterProducts(filter.value);
+    }
+
     const getProducts = computed(() => {
-        console.log(process);
-        return products.value.products;
+        return products_filtered.value;
     });
 
+    function getProductById(id) { return products.value.find((item) => (id === item.id)) };
 
-    return { loadProducts, getProducts }
+    const getProdState = computed(() => {
+        return product.value;
+    });
+
+    return { loadProducts, loadSingleProduct, getProductById, setFilter, getProducts, getProdState }
 })

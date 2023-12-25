@@ -3,7 +3,7 @@ definePageMeta({ layout: "page", title: "Корзина" });
 </script>
 
 <template>
-  <div class="container">
-    Корзина наполнение
+  <div class="container"> 
+    <CartList />
   </div>
 </template>

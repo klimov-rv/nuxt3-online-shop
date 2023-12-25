@@ -4,6 +4,7 @@ definePageMeta({ layout: "page", title: "Каталог" });
 
 <template>
   <div class="container">
+    <ProductFilter />
     <ProductList />
   </div>
 </template>

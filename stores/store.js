@@ -1,8 +1,13 @@
-const state = reactive({
-    posts: [],
-    pending: true,
-    postsErr: false,
-    errMess: ''
-})
+// export const useStorage = defineStore('siteStorage', () => {
+//     const siteStorage = useLocalStorage('siteStorage', {});
+//     const initialized = ref(false);
 
-export { state };
+//     async function initialize() {
+//         if (initialized.value) return;
+//         initialized.value = true;
+//     }
+//     return {
+//         initialize,
+//         siteStorage
+//     }
+// })

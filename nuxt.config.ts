@@ -3,13 +3,12 @@ import Components from "unplugin-vue-components/vite";
 import { NaiveUiResolver } from "unplugin-vue-components/resolvers";
 
 export default defineNuxtConfig({
-  devtools: { enabled: false }, 
-  // routeRules: {
-  //   "/": { swr: true },
-  //   "/products/**": { swr: true },
-  //   "/cart/**": { ssr: false },
-  //   "/contacts/**": { ssr: true },
-  // },
+  devtools: { enabled: false },  
+  routeRules: {
+    "/": { prerender: true, cache: { swr: true, maxAge: 120, staleMaxAge: 60, headersOnly: true } }, 
+    "/cart/**": { ssr: false },
+    "/contacts/**": { ssr: false },
+  },
   modules: ["@pinia/nuxt"],
   app: {
     head: {

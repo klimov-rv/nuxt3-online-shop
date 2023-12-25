@@ -10,9 +10,7 @@ const route = useRoute();
           <h1>{{ route.meta.title }}</h1>
         </div>
         <div class="col col-sm-3">
-          <NuxtLink to="/cart" class="alert alert-default">
-            <div>В корзине:</div>
-          </NuxtLink>
+          <CartBage />
         </div>
       </div>
       <hr />
