@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "perestroika-msk-configurator",
   "private": true,
   "type": "module",
   "scripts": {

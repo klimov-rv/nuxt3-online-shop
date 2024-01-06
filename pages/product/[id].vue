@@ -33,7 +33,7 @@ function addEventHandler(id) {
         <img :src="product.images[0]" />
       </div>   
     </div>   
-		<div class="alert alert-success">
+		<!-- <div class="alert alert-success">
 			Цена {{ product.price }}
 		</div> 
     <button v-if="cart.isAdded(product.id)" @click="cart.remove(product.id)" type="button" class="btn btn-danger">
@@ -41,6 +41,6 @@ function addEventHandler(id) {
     </button>
     <button v-else @click="addEventHandler(product.id)" type="button" class="btn btn-success">
       Добавить в корзину
-    </button>
+    </button> -->
 	</div>
 </template>

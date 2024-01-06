@@ -27,12 +27,10 @@ export const useCart = defineStore('cartStore', () => {
         return items.value;
     });
 
-
     function setCnt({ id, cnt }) {
         let item = items.value.find(item => item.id === id);
         item.cnt = Math.abs(cnt);
     }
-
 
     return { add, remove, isAdded, COUNT, getItems, setCnt }
 })

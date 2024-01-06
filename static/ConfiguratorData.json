@@ -1,0 +1,320 @@
+{
+  "phaseType": {
+    "trigger_flag": false,
+    "payload": ["1faza"],
+    "visible": true
+  },
+  "elBoardFor": {
+    "trigger_flag": false,
+    "payload": [""],
+    "visible": true
+  },
+  "boxType": {
+    "trigger_flag": false,
+    "payload": [""],
+    "visible": true
+  },
+  "inputPower": {
+    "trigger_flag": false,
+    "payload": [null],
+    "visible": false
+  },
+  "nominalPower": {
+    "trigger_flag": false,
+    "payload": [null],
+    "visible": false
+  },
+  "numLivingRooms": {
+    "trigger_flag": false,
+    "payload": [null],
+    "visible": false
+  },
+  "numNonResidental": {
+    "trigger_flag": false,
+    "payload": [null],
+    "visible": false
+  },
+  "stationaryConsumers": {
+    "trigger_flag": false,
+    "payload": [
+      {
+        "type": "1f_potreb",
+        "points": [
+          {
+            "label": "Духовой шкаф",
+            "value": "value1",
+            "key": "potreb00"
+          },
+          {
+            "label": "Духовой шкаф",
+            "value": "value1",
+            "key": "potreb00"
+          }
+        ]
+      },
+      {
+        "type": "3f_potreb",
+        "points": [
+          {
+            "label": "Духовой шкаф",
+            "value": "value1",
+            "key": "potreb00"
+          },
+          {
+            "label": "Духовой шкаф",
+            "value": "value1",
+            "key": "potreb00"
+          }
+        ]
+      }
+    ],
+    "visible": false
+  },
+  "streetConsumers": {
+    "trigger_flag": false,
+    "payload": [
+      {
+        "type": "1f_potreb",
+        "points": [
+          {
+            "label": "Духовой шкаф",
+            "value": "value1",
+            "key": "potreb00",
+            "number": 3
+          },
+          {
+            "label": "Духовой шкаф",
+            "value": "value2",
+            "key": "potreb11",
+            "number": 1
+          }
+        ]
+      },
+      {
+        "type": "3f_potreb",
+        "points": [
+          {
+            "label": "Духовой шкаф",
+            "value": "value1",
+            "key": "potreb00",
+            "number": 3
+          },
+          {
+            "label": "Духовой шкаф",
+            "value": "value2",
+            "key": "potreb11",
+            "number": 1
+          }
+        ]
+      }
+    ],
+    "visible": false
+  },
+  "heatingAndHotWater": {
+    "trigger_flag": false,
+    "payload": ["personal"],
+    "visible": false
+  },
+  "electricHob": {
+    "trigger_flag": false,
+    "payload": ["4conf"],
+    "visible": false
+  },
+  "nonShutOffLines": {
+    "trigger_flag": false,
+    "payload": [
+      {
+        "stationaryConsumers": [
+          {
+            "label": "Однофазные стационарные потребители",
+            "value": "value000",
+            "key": "1f_potreb",
+            "children": [
+              {
+                "label": "Обычная розетка (без указания цели потребления)",
+                "value": "1f_value0",
+                "key": "1f_potreb0_0"
+              },
+              {
+                "label": "Духовой шкаф",
+                "value": "value1",
+                "key": "potreb00"
+              },
+              {
+                "label": "Стиральная машина",
+                "value": "value2",
+                "key": "potreb01"
+              },
+              {
+                "label": "Сушильная машина",
+                "value": "value3",
+                "key": "potreb02"
+              },
+              {
+                "label": "Стиральная/сушильная машина",
+                "value": "value4",
+                "key": "potreb03"
+              },
+              {
+                "label": "Посудомоечная машина",
+                "value": "value5",
+                "key": "potreb04"
+              },
+              {
+                "label": "Кондиционер",
+                "value": "value7",
+                "key": "potreb05"
+              },
+              {
+                "label": "Холодильник",
+                "value": "value8",
+                "key": "potreb06"
+              },
+              {
+                "label": "Насос скважины",
+                "value": "value9",
+                "key": "potreb07"
+              },
+              {
+                "label": "Греющий кабель",
+                "value": "value10",
+                "key": "potreb08"
+              },
+              {
+                "label": "Септик",
+                "value": "value11",
+                "key": "potreb09"
+              },
+              {
+                "label": "Роутер, видеонаблюдение, сигнализация",
+                "value": "value12",
+                "key": "potreb10"
+              },
+              {
+                "label": "Защита от протечек воды",
+                "value": "value13",
+                "key": "potreb11"
+              },
+              {
+                "label": "Электрический теплый пол",
+                "value": "value14",
+                "key": "potreb12"
+              },
+              {
+                "label": "Однофазный вывод на другие объекты",
+                "value": "value15",
+                "key": "potreb13"
+              },
+              {
+                "label": "Автоматические ворота въезда",
+                "value": "value16",
+                "key": "potreb14"
+              },
+              {
+                "label": "Автоматические ворота гаража",
+                "value": "value17",
+                "key": "potreb15"
+              }
+            ]
+          },
+          {
+            "label": "ТРЕХФАЗНЫЕ стационарные потребители",
+            "value": "value111",
+            "key": "3f_potreb",
+            "children": [
+              {
+                "label": "Обычная розетка (без указания цели потребления)",
+                "value": "3f_value0",
+                "key": "3f_potreb0_0"
+              },
+              {
+                "label": "Печь сауны",
+                "value": "value18",
+                "key": "potreb16"
+              },
+              {
+                "label": "Станки и оборудование",
+                "value": "value19",
+                "key": "potreb17"
+              },
+              {
+                "label": "3-фазный вывод на другие объекты",
+                "value": "value20",
+                "key": "potreb18"
+              }
+            ]
+          }
+        ],
+        "streetConsumers": [
+          {
+            "type": "1f_potreb",
+            "points": [
+              {
+                "label": "Духовой шкаф",
+                "value": "value1",
+                "key": "potreb00",
+                "number": 3
+              },
+              {
+                "label": "Духовой шкаф",
+                "value": "value2",
+                "key": "potreb11",
+                "number": 1
+              }
+            ]
+          },
+          {
+            "type": "3f_potreb",
+            "points": [
+              {
+                "label": "Духовой шкаф",
+                "value": "value1",
+                "key": "potreb00",
+                "number": 3
+              },
+              {
+                "label": "Духовой шкаф",
+                "value": "value2",
+                "key": "potreb11",
+                "number": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "visible": true
+  },
+  "schema": {
+    "trigger_flag": false,
+    "payload": [""],
+    "visible": false
+  },
+  "accessory": {
+    "trigger_flag": false,
+    "payload": [""],
+    "visible": false
+  },
+  "protectionDegree": {
+    "trigger_flag": false,
+    "payload": [""],
+    "visible": false
+  },
+  "grounding": {
+    "trigger_flag": false,
+    "payload": [""],
+    "visible": false
+  },
+  "automaticinputreserve": {
+    "trigger_flag": false,
+    "payload": [""],
+    "visible": false
+  },
+  "avrIsOn": {
+    "trigger_flag": false,
+    "payload": [""],
+    "visible": false
+  }
+  
+  
+}

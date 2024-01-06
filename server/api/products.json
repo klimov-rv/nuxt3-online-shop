@@ -1,169 +1,116 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "title": "iPhone 9",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 549,
-        "discountPercentage": 12.96,
-        "rating": 4.69,
-        "stock": 94,
-        "brand": "Apple",
-        "category": "smartphones",
-        "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-        "images": [
-          "https://i.dummyjson.com/data/products/1/1.jpg",
-          "https://i.dummyjson.com/data/products/1/2.jpg",
-          "https://i.dummyjson.com/data/products/1/3.jpg",
-          "https://i.dummyjson.com/data/products/1/4.jpg",
-          "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-        ]
-      },
-      {
-        "id": 2,
-        "title": "iPhone X",
-        "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-        "price": 899,
-        "discountPercentage": 17.94,
-        "rating": 4.44,
-        "stock": 34,
-        "brand": "Apple",
-        "category": "smartphones",
-        "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-        "images": [
-          "https://i.dummyjson.com/data/products/2/1.jpg",
-          "https://i.dummyjson.com/data/products/2/2.jpg",
-          "https://i.dummyjson.com/data/products/2/3.jpg",
-          "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Samsung Universe 9",
-        "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-        "price": 1249,
-        "discountPercentage": 15.46,
-        "rating": 4.09,
-        "stock": 36,
-        "brand": "Samsung",
-        "category": "smartphones",
-        "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-        "images": [
-          "https://i.dummyjson.com/data/products/3/1.jpg"
-        ]
-      },
-      {
-        "id": 4,
-        "title": "OPPOF19",
-        "description": "OPPO F19 is officially announced on April 2021.",
-        "price": 280,
-        "discountPercentage": 17.91,
-        "rating": 4.3,
-        "stock": 123,
-        "brand": "OPPO",
-        "category": "smartphones",
-        "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
-        "images": [
-          "https://i.dummyjson.com/data/products/4/1.jpg",
-          "https://i.dummyjson.com/data/products/4/2.jpg",
-          "https://i.dummyjson.com/data/products/4/3.jpg",
-          "https://i.dummyjson.com/data/products/4/4.jpg",
-          "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Huawei P30",
-        "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-        "price": 499,
-        "discountPercentage": 10.58,
-        "rating": 4.09,
-        "stock": 32,
-        "brand": "Huawei",
-        "category": "smartphones",
-        "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
-        "images": [
-          "https://i.dummyjson.com/data/products/5/1.jpg",
-          "https://i.dummyjson.com/data/products/5/2.jpg",
-          "https://i.dummyjson.com/data/products/5/3.jpg"
-        ]
-      },
-      {
-        "id": 6,
-        "title": "MacBook Pro",
-        "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-        "price": 1749,
-        "discountPercentage": 11.02,
-        "rating": 4.57,
-        "stock": 83,
-        "brand": "Apple",
-        "category": "laptops",
-        "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-        "images": [
-          "https://i.dummyjson.com/data/products/6/1.png",
-          "https://i.dummyjson.com/data/products/6/2.jpg",
-          "https://i.dummyjson.com/data/products/6/3.png",
-          "https://i.dummyjson.com/data/products/6/4.jpg"
-        ]
-      },
-      {
-        "id": 7,
-        "title": "Samsung Galaxy Book",
-        "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
-        "price": 1499,
-        "discountPercentage": 4.15,
-        "rating": 4.25,
-        "stock": 50,
-        "brand": "Samsung",
-        "category": "laptops",
-        "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
-        "images": [
-          "https://i.dummyjson.com/data/products/7/1.jpg",
-          "https://i.dummyjson.com/data/products/7/2.jpg",
-          "https://i.dummyjson.com/data/products/7/3.jpg",
-          "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
-        ]
-      },
-      {
-        "id": 8,
-        "title": "Microsoft Surface Laptop 4",
-        "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-        "price": 1499,
-        "discountPercentage": 10.23,
-        "rating": 4.43,
-        "stock": 68,
-        "brand": "Microsoft Surface",
-        "category": "laptops",
-        "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-        "images": [
-          "https://i.dummyjson.com/data/products/8/1.jpg",
-          "https://i.dummyjson.com/data/products/8/2.jpg",
-          "https://i.dummyjson.com/data/products/8/3.jpg",
-          "https://i.dummyjson.com/data/products/8/4.jpg",
-          "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
-        ]
-      },
-      {
-        "id": 9,
-        "title": "Infinix INBOOK",
-        "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-        "price": 1099,
-        "discountPercentage": 11.83,
-        "rating": 4.54,
-        "stock": 96,
-        "brand": "Infinix",
-        "category": "laptops",
-        "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
-        "images": [
-          "https://i.dummyjson.com/data/products/9/1.jpg",
-          "https://i.dummyjson.com/data/products/9/2.png",
-          "https://i.dummyjson.com/data/products/9/3.png",
-          "https://i.dummyjson.com/data/products/9/4.jpg",
-          "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
-        ]
-      }
-    ],
-    "total": 100,
-    "skip": 0,
-    "limit": 9
-  }
+  "products": [
+    {
+      "id": 1,
+      "title": "Щит навесной",
+      "description": "Щит распределительный навесной —предназначен для приема и распределения электроэнергии в силовых и групповых осветительных сетях переменного тока с напряжением 380/220Вс частотой 50 Гц, с глухозаземленной нейтралью в системе заземления типов TN-S согласно ПУЭ, а также защиты кабельных линий от перегрузки и токов короткого замыкания.",
+      "category": "raspredelitelnye-shhity",
+      "thumbnail": "https://9922099.ru/wp-content/uploads/2022/07/shhn-3.jpg",
+      "images": [
+        "https://9922099.ru/wp-content/uploads/2022/07/shhrs-1.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/shhk-1.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/shhre-1.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/rp-4.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/vru-1.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "ЩИТ РАСПРЕДЕЛИТЕЛЬНЫЙ СИЛОВОЙ (ЩРС,ЩС,ЩР)",
+      "description": "Щит распределительный силовой служит для распределения, учета (при условии наличия приборов учета)электроэнергии, а также защиты кабельных линий от перегрузок, токов утечки, однофазных и многофазных коротких замыканий в сетях с номинальным напряжением до 400В и частотой переменного тока 50 Гц.",
+      "category": "raspredelitelnye-shhity",
+      "thumbnail": "https://9922099.ru/wp-content/uploads/2022/07/shhrs-1.jpg",
+      "images": [
+        "https://9922099.ru/wp-content/uploads/2022/07/shhrs-3.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/shhrs-2.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/shhrs-1.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "ЩИТ КВАРТИРНЫЙ (ЩК,ЩМ)",
+      "description": "Щит квартирный — устройство, предназначенное для приема электроэнергии от этажного щита, последующего ее распределения между потребителями, защиты подключаемой нагрузки и групповых линий от короткого замыкания и перегрузок. Учёт электроэнергии как правило не предусматривается в ЩК.",
+      "category": "raspredelitelnye-shhity",
+      "thumbnail": "https://9922099.ru/wp-content/uploads/2022/07/shhk-1.jpg",
+      "images": [
+        "https://9922099.ru/wp-content/uploads/2022/07/shhk-3.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/shhk-2.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/shhk-1.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "ЩИТ РАСПРЕДЕЛИТЕЛЬНЫЙ ЭТАЖНЫЙ (ЩРЭ, ЩЭ) ",
+      "description": "Щиты распределительные этажные — разновидность комплектных устройств, предназначенных для приема и дальнейшего распределения электрической энергии между квартирными щитками. ЩР монтируются в холлах или на лестничных клетках жилых зданий, основной их функцией является учёт расхода электроэнергии и защита отходящих силовых линий от коротких замыканий и перегрузок. Кроме того, они могут быть использованы для ручного отключения и включения электрических цепей (например, во время проведения ремонтных работ и сервисного обслуживания).",
+      "category": "raspredelitelnye-shhity",
+      "thumbnail": "https://9922099.ru/wp-content/uploads/2022/07/shhre-1.jpg",
+      "images": [
+        "https://9922099.ru/wp-content/uploads/2022/07/shhre-1.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/shhre-2.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/shhre-3.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "РАСПРЕДЕЛИТЕЛЬНОЕ УСТРОЙСТВО 0,4КВ (РУ-0,4 КВ)",
+      "description": "Распределительное устройство предназначается для выполнения своей основной функции это – приём, учёт и распределение электроэнергии в трёхфазных сетях переменного тока с частотой 50 Гц и номинальным напряжением 400 В с системой заземления TN-C, TN-S или TN-C-S. Помимо основной функции имеются и не менее важные функции такие как защита вводных и отходящих линий.",
+      "category": "raspredelitelnye-shhity",
+      "thumbnail": "https://9922099.ru/wp-content/uploads/2022/07/1ru.jpg",
+      "images": [
+        "https://9922099.ru/wp-content/uploads/2022/07/1ru.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/2ru.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/3ru.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "ГЛАВНЫЙ РАСПРЕДЕЛИТЕЛЬНЫЙ ЩИТ",
+      "description": "Главный распределительный щит — комплектное электромеханическое устройство, основной функцией которого является прием электроэнергии от поставщика и ее распределение между группами потребителей, а также защита электроприемников от выхода из строя в результате короткого замыкания. Установка дополнительного оборудования помогает существенно расширить спектр задач, решаемых ГРЩ, в числе которых следует выделить: ",
+      "thumbnail": "https://9922099.ru/wp-content/uploads/2022/07/1grshh.jpg",
+      "images": [
+        "https://9922099.ru/wp-content/uploads/2022/07/1grshh.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/2grshh.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/3grshh.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "ВВОДНО-РАСПРЕДЕЛИТЕЛЬНОЕ УСТРОЙСТВО (ВРУ)",
+      "description": "Вводно-распределительные устройства служат для приема, учета и распределения электроэнергии в сетях переменного тока частотой 50/60 Гц и напряжением 220/380В, а также для защиты отходящих линий от токов коротких замыканий и перегрузок. Монтаж ВРУ осуществляется в многоквартирных домах, коттеджах, коммерческих и административных зданиях, на производственных объектах и т.п. ",
+      "category": "laptops",
+      "thumbnail": "https://9922099.ru/wp-content/uploads/2022/07/vru-1.jpg",
+      "images": [
+        "https://9922099.ru/wp-content/uploads/2022/07/vru-3.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/vru-2.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/vru-1.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "РАСПРЕДЕЛИТЕЛЬНЫЙ ПУНКТ (РП) ",
+      "description": "Согласно правилам устройства электроустановок (ПУЭ) п. 7.1.5. распределительный пункт (РП) – устройство в котором установлены аппараты защиты и коммутационные аппараты (или только аппараты защиты для отдельных электроприёмников или их групп (электродвигателей, групповых щитков). ",
+      "category": "laptops",
+      "thumbnail": "https://9922099.ru/wp-content/uploads/2022/07/rp-2.jpg",
+      "images": [
+        "https://9922099.ru/wp-content/uploads/2022/07/rp-2.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/rp-3.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/rp-4.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "ЩИТ АВТОМАТИЧЕСКОГО ВКЛЮЧЕНИЯ РЕЗЕРВА (ЩАВР)",
+      "description": "Щит АВР представляет собой комплектное устройство для автоматического подключения потребителей к резервному источнику питания (в роли такового может выступать, например, второй резервный ввод, источник бесперебойного питания или дизельная электростанция) при отсутствии напряжения на рабочем вводе в щите.",
+      "category": "shhit-avtomaticheskogo-vklyucheniya-rezerva",
+      "thumbnail": "https://9922099.ru/wp-content/uploads/2022/07/shhavr-1.jpg",
+      "images": [
+        "https://9922099.ru/wp-content/uploads/2022/07/shhavr-2.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/shhavr-3.jpg",
+        "https://9922099.ru/wp-content/uploads/2022/07/shhavr-1.jpg"
+      ]
+    }
+  ],
+  "total": 100,
+  "skip": 0,
+  "limit": 9
+}

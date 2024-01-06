@@ -34,15 +34,17 @@ function addEventHandler(params) {
                 <img :src="pr.thumbnail" />
               </div>  
             </NuxtLink>
-						<div>Бренд: {{ pr.brand }}</div>
+            
+						<!-- <div>Бренд: {{ pr.brand }}</div>
 						<div>Цена: <b>{{ pr.price }} руб</b></div>
-						<hr>
-						<button v-if="cart.isAdded(pr.id)" @click="cart.remove(pr.id)" type="button" class="btn btn-danger">
+						<hr> -->
+            
+						<!-- <button v-if="cart.isAdded(pr.id)" @click="cart.remove(pr.id)" type="button" class="btn btn-danger">
 							Удалить из корзины
 						</button>
 						<button v-else @click="addEventHandler(pr.id)" type="button" class="btn btn-success">
 							Добавить в корзину
-						</button>
+						</button> -->
 					</div>
 				</div>
 			</div>

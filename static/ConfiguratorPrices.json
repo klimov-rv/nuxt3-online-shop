@@ -1,0 +1,692 @@
+{
+  "box": [
+    {
+      "count_flag": 4,
+      "name": "standart",
+      "accessory": 1519300,
+      "assembly": 31000,
+      "project": 50000
+    },
+    {
+      "count_flag": 4,
+      "name": "grsh",
+      "accessory": 1000,
+      "assembly": 1000,
+      "project": 1000
+    }
+  ],
+  "module": [
+    {
+      "count_flag": 4,
+      "name": "1faza",
+      "accessory": 500,
+      "assembly": 0,
+      "project": 0
+    },
+    {
+      "count_flag": 4,
+      "name": "3faza",
+      "accessory": 1500,
+      "assembly": 0,
+      "project": 0
+    },
+    {
+      "count_flag": 4,
+      "name": "diff",
+      "accessory": 2500,
+      "assembly": 0,
+      "project": 0
+    }
+  ],
+  "phaseType": [
+    {
+      "count_flag": 1,
+      "name": "3faza",
+      "accessory": 0,
+      "assembly": 1000,
+      "project": 5000
+    },
+    {
+      "count_flag": 1,
+      "name": "1faza",
+      "accessory": 0,
+      "assembly": 0,
+      "project": 0
+    }
+  ],
+  "elBoardFor": [
+    {
+      "count_flag": 1,
+      "name": "apartment",
+      "accessory": 10000,
+      "assembly": 7000,
+      "project": 10000
+    },
+    {
+      "count_flag": 1,
+      "name": "house",
+      "accessory": 20000,
+      "assembly": 15000,
+      "project": 25000
+    },
+    {
+      "count_flag": 1,
+      "name": "enterprises",
+      "accessory": 30000,
+      "assembly": 20000,
+      "project": 35000
+    }
+  ],
+  "boxType": [
+    {
+      "count_flag": 1,
+      "name": "hinged",
+      "accessory": 0,
+      "assembly": 3300,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "embedded",
+      "accessory": 2500,
+      "assembly": 5500,
+      "project": 1000
+    }
+  ],
+  "inputPower": [
+    {
+      "count_flag": 2,
+      "accessory": 100,
+      "assembly": 50,
+      "project": 0
+    }
+  ],
+  "numLivingRooms": [
+    {
+      "count_flag": 2,
+      "accessory": 2100,
+      "assembly": 4150,
+      "project": 2010
+    }
+  ],
+  "numNonResidental": [
+    {
+      "count_flag": 2,
+      "accessory": 2100,
+      "assembly": 4150,
+      "project": 2010
+    }
+  ],
+  "stationaryConsumers": [
+    {
+      "count_flag": 3,
+      "type": "1f_potreb",
+      "points": [
+        {
+          "label": "Обычная розетка (без указания цели потребления)",
+          "value": "1f_value0",
+          "key": "1f_potreb0_0",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Духовой шкаф",
+          "value": "value1",
+          "key": "potreb00",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Стиральная машина",
+          "value": "value2",
+          "key": "potreb01",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Сушильная машина",
+          "value": "value3",
+          "key": "potreb02",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Стиральная/сушильная машина",
+          "value": "value4",
+          "key": "potreb03",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Посудомоечная машина",
+          "value": "value5",
+          "key": "potreb04",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Кондиционер",
+          "value": "value7",
+          "key": "potreb05",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Холодильник",
+          "value": "value8",
+          "key": "potreb06",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Насос скважины",
+          "value": "value9",
+          "key": "potreb07",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Греющий кабель",
+          "value": "value10",
+          "key": "potreb08",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Септик",
+          "value": "value11",
+          "key": "potreb09",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Роутер, видеонаблюдение, сигнализация",
+          "value": "value12",
+          "key": "potreb10",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Защита от протечек воды",
+          "value": "value13",
+          "key": "potreb11",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Электрический теплый пол",
+          "value": "value14",
+          "key": "potreb12",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Однофазный вывод на другие объекты",
+          "value": "value15",
+          "key": "potreb13",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Автоматические ворота въезда",
+          "value": "value16",
+          "key": "potreb14",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Автоматические ворота гаража",
+          "value": "value17",
+          "key": "potreb15",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Духовой шкаф",
+          "value": "value1",
+          "key": "potreb00",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        }
+      ]
+    },
+    {
+      "count_flag": 3,
+      "type": "3f_potreb",
+      "points": [
+        {
+          "label": "Обычная розетка (без указания цели потребления)",
+          "value": "3f_value0",
+          "key": "3f_potreb0_0",
+          "price": {
+            "accessory": 1000,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Духовой шкаф",
+          "value": "value1",
+          "key": "potreb00",
+          "price": {
+            "accessory": 1000,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Стиральная машина",
+          "value": "value2",
+          "key": "potreb01",
+          "price": {
+            "accessory": 1000,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Сушильная машина",
+          "value": "value3",
+          "key": "potreb02",
+          "price": {
+            "accessory": 1000,
+            "assembly": 500,
+            "project": 200
+          }
+        }
+      ]
+    }
+  ],
+  "streetConsumers": [
+    {
+      "count_flag": 3,
+      "type": "1f_potreb",
+      "points": [
+        {
+          "label": "Духовой шкаф",
+          "value": "value1",
+          "key": "potreb00",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Духовой шкаф",
+          "value": "value2",
+          "key": "potreb11",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        }
+      ]
+    },
+    {
+      "count_flag": 3,
+      "type": "3f_potreb",
+      "points": [
+        {
+          "label": "Духовой шкаф",
+          "value": "value1",
+          "key": "potreb00",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        },
+        {
+          "label": "Духовой шкаф",
+          "value": "value2",
+          "key": "potreb11",
+          "price": {
+            "accessory": 500,
+            "assembly": 500,
+            "project": 200
+          }
+        }
+      ]
+    }
+  ],
+  "heatingAndHotWater": [
+    {
+      "count_flag": 5,
+      "name": "central",
+      "modules": 0
+    },
+    {
+      "count_flag": 5,
+      "name": "personal",
+      "modules": 1
+    }
+  ],
+  "electricHob": [
+    {
+      "count_flag": 5,
+      "name": "4conf",
+      "modules": 3
+    },
+    {
+      "count_flag": 5,
+      "name": "2conf",
+      "modules": 1
+    }
+  ],
+  "nonShutOffLines": {
+    "stationaryConsumers": [
+      {
+        "count_flag": 3,
+        "type": "1f_potreb",
+        "points": [
+          {
+            "label": "Духовой шкаф",
+            "value": "value1",
+            "key": "potreb00",
+            "price": {
+              "accessory": 500,
+              "assembly": 500,
+              "project": 200
+            }
+          },
+          {
+            "label": "Духовой шкаф",
+            "value": "value1",
+            "key": "potreb00",
+            "price": {
+              "accessory": 500,
+              "assembly": 500,
+              "project": 200
+            }
+          }
+        ]
+      },
+      {
+        "count_flag": 3,
+        "type": "3f_potreb",
+        "points": [
+          {
+            "label": "Духовой шкаф",
+            "value": "value1",
+            "key": "potreb00",
+            "price": {
+              "accessory": 500,
+              "assembly": 500,
+              "project": 200
+            }
+          },
+          {
+            "label": "Духовой шкаф",
+            "value": "value1",
+            "key": "potreb00",
+            "price": {
+              "accessory": 500,
+              "assembly": 500,
+              "project": 200
+            }
+          }
+        ]
+      }
+    ],
+    "streetConsumers": [
+      {
+        "count_flag": 3,
+        "type": "1f_potreb",
+        "points": [
+          {
+            "label": "Духовой шкаф",
+            "value": "value1",
+            "key": "potreb00",
+            "price": {
+              "accessory": 500,
+              "assembly": 500,
+              "project": 200
+            }
+          },
+          {
+            "label": "Духовой шкаф",
+            "value": "value2",
+            "key": "potreb11",
+            "price": {
+              "accessory": 500,
+              "assembly": 500,
+              "project": 200
+            }
+          }
+        ]
+      },
+      {
+        "count_flag": 3,
+        "type": "3f_potreb",
+        "points": [
+          {
+            "label": "Духовой шкаф",
+            "value": "value1",
+            "key": "potreb00",
+            "price": {
+              "accessory": 500,
+              "assembly": 500,
+              "project": 200
+            }
+          },
+          {
+            "label": "Духовой шкаф",
+            "value": "value2",
+            "key": "potreb11",
+            "price": {
+              "accessory": 500,
+              "assembly": 500,
+              "project": 200
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "schema": [
+    {
+      "count_flag": 1,
+      "name": "schema-1",
+      "accessory": 1000,
+      "assembly": 1000,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "schema-2",
+      "accessory": 1000,
+      "assembly": 1000,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "schema-3",
+      "accessory": 1000,
+      "assembly": 1000,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "schema-4",
+      "accessory": 1000,
+      "assembly": 1000,
+      "project": 1000
+    }
+  ],
+  "accessory": [
+    {
+      "count_flag": 1,
+      "name": "atl1",
+      "accessory": 1000,
+      "assembly": 1000,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "atl2",
+      "accessory": 1000,
+      "assembly": 1000,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "atl3",
+      "accessory": 1000,
+      "assembly": 1000,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "atl4",
+      "accessory": 1000,
+      "assembly": 1000,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "atl5",
+      "accessory": 1000,
+      "assembly": 1000,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "atl6",
+      "accessory": 1000,
+      "assembly": 1000,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "atl7",
+      "accessory": 1000,
+      "assembly": 1000,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "atl8",
+      "accessory": 1000,
+      "assembly": 1000,
+      "project": 1000
+    }
+  ],
+  "protectionDegree": [
+    {
+      "count_flag": 1,
+      "name": "IP54",
+      "accessory": 10000,
+      "assembly": 3300,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "IP31",
+      "accessory": 50000,
+      "assembly": 5500,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "IP65",
+      "accessory": 150000,
+      "assembly": 5500,
+      "project": 1000
+    }
+  ],
+  "grounding": [
+    {
+      "count_flag": 1,
+      "name": "TNC",
+      "accessory": 35000,
+      "assembly": 3300,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "TNCS",
+      "accessory": 45000,
+      "assembly": 5500,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "TNS",
+      "accessory": 70000,
+      "assembly": 5500,
+      "project": 1000
+    }
+  ],
+  "automaticinputreserve": [
+    {
+      "count_flag": 1,
+      "name": "hinged",
+      "accessory": 0,
+      "assembly": 3300,
+      "project": 1000
+    },
+    {
+      "count_flag": 1,
+      "name": "embedded",
+      "accessory": 2500,
+      "assembly": 5500,
+      "project": 1000
+    }
+  ]
+}
