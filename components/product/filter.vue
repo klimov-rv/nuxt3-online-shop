@@ -1,48 +1,28 @@
-<script setup> 
+<script setup>
 const productsStore = useProductsStore();
-const label = ref("Все бренды"),
+const label = ref("Все"),
   value = ref("all"),
   filter_option = [
     {
       id: 1,
-      label: "Все бренды",
+      label: "Все",
       value: "all",
     },
     {
       id: 2,
-      label: "Apple",
-      value: "apple",
+      label: "РАСПРЕДЕЛИТЕЛЬНЫЕ ЩИТЫ",
+      value: "raspredelitelnye-shhity",
     },
     {
       id: 3,
-      label: "Samsung",
-      value: "samsung",
-    },
-    {
-      id: 4,
-      label: "Huawei",
-      value: "huawei",
-    },
-    {
-      id: 5,
-      label: "OPPO",
-      value: "oppo",
-    },
-    {
-      id: 6,
-      label: "Microsoft Surface",
-      value: "microsoft_surface",
-    },
-    {
-      id: 7,
-      label: "Infinix",
-      value: "infinix",
+      label: "УСТРОЙСТВА АВТОМАТИЧЕСКОГО ВВОДА РЕЗЕРВА",
+      value: "shhit-avtomaticheskogo-vklyucheniya-rezerva",
     },
   ];
 function handleUpdateValue(value, option) {
   label.value = option.label;
-  productsStore.setFilter(option.label);
-} 
+  productsStore.setFilter(option.value);
+}
 </script>
 
 <template>
@@ -55,5 +35,5 @@ function handleUpdateValue(value, option) {
     >
       <NButton>{{ label || "Popselect" }}</NButton>
     </NPopselect>
-  </NSpace> 
+  </NSpace>
 </template>

@@ -18,7 +18,7 @@ export const useProductsStore = defineStore('productsStore', () => {
     };
 
     async function loadSingleProduct(id) {
-        const { data, pending, error } = await useFetch(`/api/products/${id}`); 
+        const { data, pending, error } = await useFetch(`/api/products/${id}`);
         product.value = data.value;
         if (error.value) {
             throw createError({
@@ -29,11 +29,11 @@ export const useProductsStore = defineStore('productsStore', () => {
         return pending;
     };
 
-    function filterProducts(filter_code) {
-        if (filter_code === "Все бренды") {
+    function filterProducts(filter_code) { 
+        if (filter_code === "all") {
             return products.value;
         } else {
-            return products.value.filter((item) => (filter_code === item.brand));
+            return products.value.filter((item) => (filter_code === item.category));
         }
     }
 
